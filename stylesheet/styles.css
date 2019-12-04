@@ -4,7 +4,9 @@
 header > div,
 header > nav ul,
 .aboutarch,
-.arch-container {
+.arch-container,
+.instructors-container,
+.class-container{
   margin: 0 auto;
   max-width: 70rem;
 }
@@ -66,6 +68,7 @@ h2 {
   font-size: 24px;
   font-family: 'Arial', sans-serif;
   font-weight: bold;
+  text-align: center;
 }
 main {
   margin-top: 3%;
@@ -74,6 +77,9 @@ main {
 footer ftnav {
     overflow: auto;
       text-transform: uppercase;
+}
+p {
+  font-weight: normal;
 }
 .ftnav a {
   color: white;
@@ -98,8 +104,20 @@ footer ftnav {
 .flex-item-2 {
   background-color: grey;
 }
+.flex-item-3 {
+  background-color: grey;
+}
+.flex-item-4{
+  background-color: grey;
+}
+.flex-item-5 {
+  background-color: grey;
+}
+.flex-item-6 {
+  background-color: grey;
+}
 .arch-flex{
-  height: 300px;
+  height: auto;
   width: 550px;
   margin-top: 10px;
   margin-left: 10px;
@@ -116,13 +134,74 @@ footer ftnav {
   font-family: 'Arial', sans-serif;
   font-weight: bold;
   text-align: center;
+  color: white;
 }
 .arch-flex p {
   padding-left: 4%;
   padding-right: 4%;
   text-transform: capitalize;
+  color: white;
+  text-align: center;
 }
 .arch-container {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+}
+.class-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+.class-flex {
+  height: auto;
+  width: 350px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #004BFF;
+  border-top: 5px;
+  border-top-style: solid;
+  border-top-color: #004BFF;
+  color: white;
+}
+.class-flex p {
+  padding-left: 4%;
+  padding-right: 4%;
+  font-weight: normal;
+
+}
+.class-container h2{
+  font-size: 24px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+.class-container h3{
+  font-size: 17px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 4%;
+  padding-right: 4%;
+  font-style: italic;
+}
+.instructors-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+.instructors-flex {
+  height: auto;
+  width: 350px;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #004BFF;
+  border-top: 5px;
+  border-top-style: solid;
+  border-top-color: #004BFF;
+  color: white;
+}
